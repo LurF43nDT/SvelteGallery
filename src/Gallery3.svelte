@@ -15,7 +15,6 @@
   </script>
   
   <div class="gallery">
-    <h2>Some Blender Projects</h2>
     <div class="image-container">
       {#each images as image}
         <img src={image.src} alt={image.alt} />

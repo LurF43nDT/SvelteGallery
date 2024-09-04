@@ -28,15 +28,15 @@ function toggleGallery3() {
   <h1>Welcome to a Gallery of a random selection of some of my projects</h1>
   
   <button on:click={toggleGallery}>
-    {showGallery ? 'U Murderer' : 'BOOM HEADSHOT'}
+    {showGallery ? 'Drawings, Yes' : 'Random Drawings'}
   </button>
   
   <button on:click={toggleGallery2}>
-    {showGallery2 ? 'U Murderer' : 'BOOM HEADSHOT'}
+    {showGallery2 ? 'IDK' : 'PhotoShop Projects'}
   </button>
 
   <button on:click={toggleGallery3}>
-    {showGallery3 ? 'U Murderer' : 'BOOM HEADSHOT'}
+    {showGallery3 ? 'Stuff' : 'Blender Stuff'}
   </button>
 
   {#if showGallery}
@@ -81,14 +81,14 @@ function toggleGallery3() {
     font-size: 1em;
     padding: 10px 20px;
     margin: 20px 0;
-    background-color: #4CAF50;
-    color: white;
+    background-color: #4caf4fd2;
+    color: #fff201;
     border: none;
     border-radius: 4px;
-    cursor:crosshair
+    cursor:no-drop
   }
 
   button:hover {
-    background-color: #45a049;
+    background-color: #010c01;
   }
 </style>
