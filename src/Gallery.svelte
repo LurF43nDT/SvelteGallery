@@ -37,8 +37,8 @@
   }
 
   img {
-    max-width: 300px;
-    height: auto;
+    max-width: auto;
+    height: 450px;
     border-radius: 4px;
   }
 </style>

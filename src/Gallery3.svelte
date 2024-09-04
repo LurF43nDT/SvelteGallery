@@ -39,8 +39,8 @@
     }
   
     img {
-      max-width: 300px;
-      height: auto;
+      max-width: auto;
+      height: 300px;
       border-radius: 4px;
     }
   </style>
